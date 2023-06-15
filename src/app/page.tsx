@@ -3,5 +3,5 @@
 import styles from "./page.module.css";
 
 export default function Home() {
-  return <main className={styles.main}>Nextjs root landing page</main>;
+  return <main className={styles.main}>from landing page</main>;
 }

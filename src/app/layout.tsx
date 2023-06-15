@@ -1,6 +1,7 @@
 // similar to _app.tsx
 
 import "./globals.css";
+import styles from "./layout.module.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -13,7 +14,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <title>Next.js sample app</title>
+      </head>
+      <body>
+        <div className={styles.header}>Root layout file</div>
+        <div>{children}</div>
+      </body>
     </html>
   );
 }

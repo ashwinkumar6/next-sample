@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: cyan;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.dashboard {
+  background-color: green;
+}
+
+.dashboardBody {
+  background-color: greenyellow;
+}
+
+.settings {
+  background-color: red;
+}
+
+.settingsBody {
+  background-color: violet;
+}
